@@ -1,10 +1,14 @@
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 
 
 function App() {
 
   return (
     <>
-    <h2 className="bg-red-100"> skds </h2>
+      <Header />
+
+      <Footer />
     </>
   )
 }
